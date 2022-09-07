@@ -48,6 +48,19 @@ main {
     font-family: Georgia;
   }
   
+  #change-lang {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    font-family: Georgia;
+  }
+  
+  #e2c, #c2e {
+    color: #0d76af;
+  }
+
+
   #tribute-content, #quote-div {
     margin: 0 400px 0 400px;
     max-width: 50%;
