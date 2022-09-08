@@ -58,7 +58,36 @@ window.onload = function(){
         }, 400);
 
     }
+
+    var om5 = document.getElementById("f5"); //o1是需要悬浮的选项，这里需要同步你的标签id或class名称
+    var ob5 = document.getElementById("q5"); //o2是需要隐藏的div
+    ob5.style.display = "none";
+    ob5.onmouseover = om5.onmouseover = function(){
+        if(timer) clearTimeout(timer)
+        ob5.style.display = "block";
+    }
+    ob5.onmouseout = om5.onmouseout = () => {
+
+        timer = setTimeout(function () {
+            ob5.style.display = "none";
+        }, 400);
+
+    }
     
+    var om6 = document.getElementById("f6"); //o1是需要悬浮的选项，这里需要同步你的标签id或class名称
+    var ob6 = document.getElementById("q6"); //o2是需要隐藏的div
+    ob6.style.display = "none";
+    ob6.onmouseover = om6.onmouseover = function(){
+        if(timer) clearTimeout(timer)
+        ob6.style.display = "block";
+    }
+    ob6.onmouseout = om6.onmouseout = () => {
+
+        timer = setTimeout(function () {
+            ob6.style.display = "none";
+        }, 400);
+
+    }
 
 
   }
