@@ -89,6 +89,22 @@ window.onload = function(){
 
     }
 
+    var om7 = document.getElementById("f7"); //o1是需要悬浮的选项，这里需要同步你的标签id或class名称
+    var ob7 = document.getElementById("q7"); //o2是需要隐藏的div
+    ob7.style.display = "none";
+    ob7.onmouseover = om7.onmouseover = function(){
+        if(timer) clearTimeout(timer)
+        ob7.style.display = "block";
+    }
+    ob7.onmouseout = om7.onmouseout = () => {
+
+        timer = setTimeout(function () {
+            ob7.style.display = "none";
+        }, 400);
+
+    }
+
+
 
   }
 
