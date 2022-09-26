@@ -131,6 +131,6 @@ main {
 
 @media (max-width: 600px) {
   main #image, #img-caption, #tribute-content, #quote-div{
-    max-width: 100%;
+    max-width: 90%;
   }
 }
