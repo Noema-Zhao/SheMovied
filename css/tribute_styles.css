@@ -66,6 +66,7 @@ main {
     max-width: 45%;
     font-family:  Georgia;
     font-size: 20px;
+    text-align: center;
     
   }
   
@@ -130,7 +131,12 @@ main {
   
 
 @media (max-width: 600px) {
-  main #image, #img-caption, #tribute-content, #quote-div{
-    max-width: 90%;
+  main #img-caption, #tribute-content, #quote-div{
+    width: 80%;
+  }
+
+  main #image {
+    width: 80%;
+
   }
 }
