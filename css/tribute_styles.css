@@ -133,6 +133,8 @@ main {
 @media (max-width: 600px) {
   main #img-caption, #tribute-content, #quote-div{
     width: 90%;
+    display: block;
+    margin: 10px auto;
   }
 
   main #image {
