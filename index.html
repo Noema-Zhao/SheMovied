@@ -34,6 +34,11 @@
 			$('.main-header').load("/header.html");
 		});
 	</script>
+	<script>
+		$(function() {
+			$('.main-footer').load("/footer.html");
+		});
+	</script>
 
 	<!-- Owl Carousel Assets -->
     <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
@@ -138,15 +143,7 @@
 			</div>
 		</section>
 		<!--////////////////////////////////////Footer-->
-        <!-- 通过id注入组件 -->
-        <div id="footer_page"></div>
-
-        <script>
-        // 通过load加载组件
-          $("#footer_page").load("/footer.html", function(result) {
-
-		  });
-        </script>
+        <footer class="main-footer"></footer>
 		
 		<!-- carousel -->
 		<script src="owl-carousel/owl.carousel.js"></script>
