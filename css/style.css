@@ -172,7 +172,7 @@ article .entry-header{margin-bottom: 30px;}
 article.single-post .entry-header{margin-bottom: 30px;text-align: center;}
 article.single-post .entry-header h1.entry-title{font-family: Georgia, 'Times New Roman', Times, serif;font-size: 25px;line-height: 30px;letter-spacing: 2px;font-weight: 300;margin: 0;text-transform: uppercase;margin-bottom: 0;line-height: 1.1}
 article.single-post .entry-header h1.entry-title a {color: #575756;margin: 0;}
-article .entry-thumbnail-wrap img {display:block; margin: 20px auto 20px auto;}
+article .entry-thumbnail-wrap img {display:block; margin: 20px auto 20px auto; max-width: 80%;}
 
 article .entry-title-blog a:hover {color: #628d7c;}
 article.single-post div.entry-content{font-family: Georgia, 'Times New Roman', Times, serif;font-size: 18;}
@@ -277,4 +277,9 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 .gallery-link {text-decoration: underline;color: #589139;}
 .tribute-link {text-decoration: underline;color: #c26a80;}
 
-.question {font-size: 20px;}
+.question {font-size: 22px; margin: 20px 0;}
+.hl_gr {color:#46a115}
+.hl_rd {color:#c26a80}
+.hl_bl {color:#0d76af}
+.hl_bold {font-weight: bolder;}
+.content {margin: 0; padding: 0;}
