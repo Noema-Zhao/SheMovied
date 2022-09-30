@@ -303,7 +303,7 @@
   #cssmenu ul li.has-sub > a:before,
   #cssmenu ul li ul li.has-sub:after,
   #cssmenu ul li ul li.has-sub:before {
-    display: none;
+    display: block;
   }
   #cssmenu ul li ul,
   #cssmenu ul li ul li ul,
