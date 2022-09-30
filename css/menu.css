@@ -243,7 +243,7 @@
 @media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 	#cssmenu{background: #fff;}
   #cssmenu > ul {
-    max-height: 500px;
+    max-height: 100px;
     overflow: hidden;
     -webkit-transition: max-height 0.35s ease-out;
     -moz-transition: max-height 0.35s ease-out;
@@ -253,21 +253,21 @@
   }
   #cssmenu > ul > li > ul {
     width: 100%;
-    display: block;
+    display: none;
   }
   #cssmenu.align-right ul li a {
     text-align: left;
   }
   #cssmenu > ul > li > ul > li {
     width: 100%;
-    display: block;
+    display: none;
   }
   #cssmenu.align-right ul ul li a {
     text-align: left;
   }
   #cssmenu > ul > li > ul > li > a {
     width: 100%;
-    display: block;
+    display: none;
   }
   #cssmenu ul li ul li a {
     width: 100%;
