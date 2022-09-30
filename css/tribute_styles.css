@@ -131,7 +131,7 @@ main {
   
 
 @media (max-width: 600px) {
-  main #img-caption, #tribute-content, #quote-div{
+  main #img-caption, #tribute-content, #quote-div, #link-div{
     width: 80%;
     
     margin: auto;
