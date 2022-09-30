@@ -89,29 +89,27 @@
 						</div>
 					</div>
 				</article>
-				<div class="zerogrid">
-					<div class="comments-are">
-						<div id="comment">
-							<h3>Leave a Reply</h3>
-							<span>Your email address will not be published. Required fields are marked </span>
-							<form name="form1" id="comment_form" method="post" action="">
-								<label>
-								<span>Comment:</span>
-								<textarea name="message" id="message"></textarea>
-								</label>
-								<label>
-								<span>Name:</span>
-								<input type="text"  name="name" id="name" required>
-								</label>
-								<label>
-								<span>Email:</span>
-								<input type="email"  name="email" id="email" required>
-								</label>
-								<center><input class="sendButton" type="submit" name="SubmitComment" value="Submit"></center>
-							</form>
-						</div>
-					</div>
-				</div>
+				<div id="disqus_thread"></div>
+				<script>
+					/**
+					*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+					*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+					
+					var disqus_config = function () {
+					this.page.url = 'https://shemovied.netlify.app/about.html';  // Replace PAGE_URL with your page's canonical URL variable
+					/*this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+					};
+					
+					(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://https-shemovied-netlify-app.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+					})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<script id="dsq-count-scr" src="//https-shemovied-netlify-app.disqus.com/count.js" async></script>
+				
 			</div>
 		</section>
 		<!--////////////////////////////////////Footer-->
