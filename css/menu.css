@@ -20,7 +20,7 @@
   font-size: 0;
   height: 0;
   clear: both;
-  visibility: hidden;
+  
 }
 #cssmenu ul li {
   margin: 0 10px;
@@ -253,7 +253,7 @@
   }
   #cssmenu > ul > li > ul {
     width: 100%;
-    display: none;
+    display: block;
   }
   #cssmenu.align-right ul li a {
     text-align: left;
@@ -297,7 +297,7 @@
     padding: 12px 20px;
   }
   #cssmenu ul > li:after {
-    display: none;
+    display: block;
   }
   #cssmenu ul li.has-sub > a:after,
   #cssmenu ul li.has-sub > a:before,
