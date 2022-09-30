@@ -2,8 +2,8 @@ window.onload = function(){
     var om = document.getElementById("f1"); //o1是需要悬浮的选项，这里需要同步你的标签id或class名称
     var ob = document.getElementById("q1"); //o2是需要隐藏的div
     ob.style.display = "none";
-    ob.onmouseover = om.onmouseover = function(){
-        if(timer) clearTimeout(timer)
+    ob.onclick = om.onclick = function(){
+        
         ob.style.display = "block";
     }
     ob.onmouseout = om.onmouseout = function(){
