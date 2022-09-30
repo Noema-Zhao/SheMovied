@@ -197,7 +197,7 @@ article .entry-header .tags-links a{padding: 3px 8px 1px;background: #131313;lin
 article.single-post .entry-header .tags-links {margin-bottom: 70px;}
 
 
-article .entry-content{text-align: left; overflow: hidden;}
+article .entry-content{text-align: left; overflow: scroll;}
 article.single-post .entry-content{ padding: 40px 120px;}
 @media  (max-width: 540px){
 	article.single-post .entry-content{ padding: 30px;}
@@ -289,7 +289,7 @@ h2 .question {font-size: 22px; margin: 30px 0;}
 .hl_rd {color:#c26a80}
 .hl_bl {color:#0d76af}
 .hl_bold {font-weight: bolder;}
-.content {margin: 10px 0; padding: 0;}
+.content {margin: 30px 0; padding: 0;}
 #disqus_thread {width: 60%; margin: auto;}
 
 @media (max-width: 800px) {
