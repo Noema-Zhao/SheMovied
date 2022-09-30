@@ -239,11 +239,11 @@
   display: block;
 }
 
-/*
+
 @media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 	#cssmenu{background: #fff;}
   #cssmenu > ul {
-    max-height: 50px;
+    max-height: 500px;
     overflow: hidden;
     -webkit-transition: max-height 0.35s ease-out;
     -moz-transition: max-height 0.35s ease-out;
@@ -384,4 +384,3 @@
 	background: #131313;
   }
 }
-*/
