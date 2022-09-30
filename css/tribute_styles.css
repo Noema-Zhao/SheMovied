@@ -132,9 +132,13 @@ main {
 
 @media (max-width: 600px) {
   main #img-caption, #tribute-content, #quote-div, #link-div{
-    width: 80%;
+    width: 85%;
     
     margin: auto;
+  }
+
+  main #tribute-content {
+    text-align: justify;
   }
 
   main #image {
