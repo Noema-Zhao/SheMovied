@@ -197,7 +197,7 @@ article .entry-header .tags-links a{padding: 3px 8px 1px;background: #131313;lin
 article.single-post .entry-header .tags-links {margin-bottom: 70px;}
 
 
-article .entry-content{text-align: left;}
+article .entry-content{text-align: left; max-width: 100%;}
 article.single-post .entry-content{ padding: 40px 120px;}
 @media  (max-width: 540px){
 	article.single-post .entry-content{ padding: 30px;}
